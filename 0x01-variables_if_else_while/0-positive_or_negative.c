@@ -19,16 +19,18 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	printf("enter a number:");
-	scanf("%d",&n);
+	scanf("%d" , &n);
 
 	printf("%d is " , n);
-	if (n>0){
+	if ( n > 0 )  
+	{   
 		printf("positive\n");
-	}else if(n==0){
-		printf("zero\n");
-	}else{
-		printf("negative\n");
+	} else if ( n == 0 ) {
+		printf( "zero\n");
+	}else
+	{
+		printf ( "negative\n" );
 	}
-	 printf("\n");
+	 printf( "\n" );
 	return (0);
 }
