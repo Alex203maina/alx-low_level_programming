@@ -9,13 +9,15 @@ int main(void)
 {
 	int i;
 
-        printf("Infinite loop incoming :(\n");
+	printf("Infinite loop incoming :(\n");
 
 	i = 0;
 
 	while (i < 10)
-		/*whle i is less than 10*/
-		/*putchar(1)*/
+		/*while (i < 10*/
+		/*{*/
+		/*putchar(i);*/
+		/*}*/
 	{
 		putchar(i);
 	}
