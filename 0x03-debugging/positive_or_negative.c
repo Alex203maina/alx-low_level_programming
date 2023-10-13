@@ -1,19 +1,17 @@
 #include "main.h"
 
-void positive_or_negative(int i){
-        
-        if (i>0)
+void positive_or_negative(int i);
+{
 
-        printf("%d  is positive\n",i);
+	if (i > 0)
 
-
-        if (i<0)
-        printf("%d the number is negative\n",i);
+		printf("%d  is positive\n", i);
 
 
-        else 
-        printf("%d   is zero\n",i);
+	if (i < 0)
+		printf("%d the number is negative\n", i);
 
-        
 
+	else
+		printf("%d   is zero\n", i);
 }
