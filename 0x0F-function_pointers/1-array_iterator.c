@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * array_itarator - execute function on each element of array
- * @array: the array
+ * array_iterator - execute function on each element of array
+ * @array:array
  * @size: size of array
  * @action: function to perform on each array
  * Return: void
