@@ -12,22 +12,28 @@
  * If a string is NULL, "(nil)" is printed instead.
  * A new line is printed at the end of the function.
  */
-void print_strings(const char *separator, const unsigned int n, ...) {
+void print_strings(const char *separator, const unsigned int n, ...)
+{
 va_list strings;
 unsigned int index;
 char *str;
 
-    va_start(strings, n);
+va_start(strings, n);
 
-for (index = 0; index < n; ++index) {
+for (index = 0; index < n; ++index)
+{
 str = va_arg(strings, char*);
-if (str == NULL) {
+if (str == NULL)
+{
 printf("(nil)");
-} else {
+}
+else
+{
 printf("%s", str);
 }
 
-if (index != (n - 1) && separator != NULL) {
+if (index != (n - 1) && separator != NULL)
+{
 printf("%s", separator);
 }
 }
